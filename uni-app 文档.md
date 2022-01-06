@@ -86,7 +86,7 @@ uni.getLocation({
 
 ##### 条件编译
 
-![uniapp_if](./assets/uniapp_if.png)
+![uniapp_if](assets/uniapp_if.png)
 
 
 
