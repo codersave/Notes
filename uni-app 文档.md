@@ -1,7 +1,7 @@
 # uni-app基础
 
 ###  规范
-##### 页面文件遵循Vue单文件组件规范:
+#### 页面文件遵循Vue单文件组件规范:
 ```vue
 <template>
     <view class="main">
@@ -27,7 +27,7 @@
 
 ```
 
-##### 组件标签靠近小程序规范：
+#### 组件标签靠近小程序规范：
 
 ```html
 <!-- 传统标签 -->
@@ -43,7 +43,7 @@
 </template>
 ```
 
-##### 接口能力(JS API)靠近微信小程序规范：
+#### 接口能力(JS API)靠近微信小程序规范：
 
 ```javascript
 // 获取位置信息
@@ -56,7 +56,7 @@ uni.getLocation({
 })
 ```
 
-##### 数据绑定与事件处理使用Vue.js规范：
+#### 数据绑定与事件处理使用Vue.js规范：
 
 ```vue
 <template>
@@ -87,17 +87,17 @@ uni.getLocation({
 
 ### 特色
 
-##### 条件编译
+#### 条件编译
 
 ![uniapp_if](assets/uniapp_if.png)
 
-##### App端的Nvue开发
+#### App端的Nvue开发
 
 uni-app App端内置了一个基于 weex 改进的原生渲染引擎，提供了原生渲染能力。
 
 在App端，如果使用vue页面，则使用webview渲染；如果使用nvue页面(native vue的缩写)，则使用原生渲染。
 
-##### HTML5+
+#### HTML5+
 
 uni-app App端内置 HTML5+ 引擎，让js可以直接调用丰富的原生能力。
 
